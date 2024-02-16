@@ -25,5 +25,9 @@ inputShearchCss=driver.find_element(by=By.CSS_SELECTOR, value="#identifierId")
 print(inputShearchCss.get_attribute("spellcheck"))
 
 
+## Localizador por Class
+inputShearchClass=driver.find_element(by=By.CLASS_NAME, value="whsOnd zHQkBf")
+print(inputShearchClass.get_attribute("jsname"))
+
 
 
